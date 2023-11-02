@@ -4,6 +4,10 @@ on:
   push:
     branches: main
 
+permissions:
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     uses: jill64/.github/.github/workflows/publish-pages.yml@main
