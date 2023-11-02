@@ -1,0 +1,9 @@
+name: CI
+
+on:
+  push:
+    branches: main
+
+jobs:
+  deploy:
+    uses: jill64/.github/.github/workflows/publish-pages.yml@main
