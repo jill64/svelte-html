@@ -1,6 +1,9 @@
-import { bind } from '$lib'
+import { transform } from '$lib'
 
-export const handle = bind({
-  lang: 'zh',
-  prefix: 'https://example.com'
-})
+export const handle = ({ resolve, event }) =>
+  resolve(event, {
+    transformPageChunk: transform({
+      lang: 'zh',
+      prefix: 'https://example.com'
+    })
+  })
