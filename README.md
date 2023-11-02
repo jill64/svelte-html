@@ -1,2 +1,2 @@
-# svelte-html
-🏷️ Reactive attributes assignment for root html element
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
