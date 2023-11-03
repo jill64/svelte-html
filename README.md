@@ -7,3 +7,43 @@
 🏷️ Reactive attributes assignment for root html element
 
 <!----- END GHOST DOCS HEADER ----->
+
+## Usage
+
+By passing a key-value set to the `<SvelteHTML />` component, attributes are bind to the root html element.
+
+```svelte
+<script>
+  import { SvelteHTML } from '@jill64/svelte-html'
+</script>
+
+<SvelteHTML lang="en" prefix="example" />
+```
+
+↓
+
+```html
+<html lang="en" prefix="example">
+  <!-- ... -->
+</html>
+```
+
+## SSR
+
+Attribute binding with `<SvelteHTML>` is only applied on the client.
+To assign arbitrary attributes during SSR, use the `transform` function in the `handle` hook.
+
+```js
+// hooks.server.js
+import { transform } from '@jill64/svelte-html'
+
+export const handle = async ({ event, resolve }) => {
+  // ...
+  return resolve(event, {
+    transformPageChunk: transform({
+      lang: 'en',
+      prefix: 'example'
+    })
+  })
+}
+```
