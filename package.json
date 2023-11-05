@@ -45,7 +45,8 @@
     "test:e2e": "playwright test"
   },
   "peerDependencies": {
-    "svelte": "^4.0.0"
+    "svelte": "^4.0.0",
+    "@sveltejs/kit": "^1.0.0",
   },
   "devDependencies": {
     "@jill64/sentry-sveltekit-cloudflare": "1.0.0",
