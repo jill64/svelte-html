@@ -2,11 +2,9 @@
 
 # svelte-html
 
-[![npm-version](https://img.shields.io/npm/v/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-license](https://img.shields.io/npm/l/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![ci.yml](https://github.com/jill64/svelte-html/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-html/actions/workflows/ci.yml) [![codecov-coverage](https://codecov.io/gh/jill64/svelte-html/graph/badge.svg)](https://codecov.io/gh/jill64/svelte-html) [![github-pages](https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fjill64.github.io%2Fsvelte-html%2F)](https://jill64.github.io/svelte-html/)
+[![npm-version](https://img.shields.io/npm/v/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-license](https://img.shields.io/npm/l/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/svelte-html)](https://npmjs.com/package/@jill64/svelte-html) [![ci.yml](https://github.com/jill64/svelte-html/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-html/actions/workflows/ci.yml) [![codecov-coverage](https://codecov.io/gh/jill64/svelte-html/graph/badge.svg)](https://codecov.io/gh/jill64/svelte-html)
 
 🏷️ Declarative attribute binding for the root html element
-
-## [Demo](https://jill64.github.io/svelte-html/)
 
 ## Install
 
