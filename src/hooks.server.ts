@@ -7,7 +7,7 @@ const { onHandle, onError } = serverInit(PUBLIC_SENTRY_DSN)
 export const handle = onHandle(({ resolve, event }) =>
   resolve(event, {
     transformPageChunk: apply({
-      lang: 'zh',
+      lang: 'en',
       prefix: 'https://example.com'
     })
   })
