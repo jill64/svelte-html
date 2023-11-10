@@ -1,7 +1,7 @@
 import type { ResolveOptions } from '@sveltejs/kit'
-import { transform as fn } from './utils/transform'
+import { transform } from './utils/transform'
 
-export const transform =
+export const apply =
   (attributes: Record<string, string>): ResolveOptions['transformPageChunk'] =>
   ({ html }) =>
-    fn(html, attributes)
+    transform(html, attributes)
