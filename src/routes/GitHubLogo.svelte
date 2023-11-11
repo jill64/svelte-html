@@ -2,7 +2,12 @@
   import { theme } from '@jill64/svelte-dark-theme'
 </script>
 
-<svg width="32" height="32" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 98 98"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <path
     fill-rule="evenodd"
     clip-rule="evenodd"
