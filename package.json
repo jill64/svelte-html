@@ -46,8 +46,8 @@
     "test:e2e": "playwright test"
   },
   "peerDependencies": {
-    "svelte": "^4.0.0",
-    "@sveltejs/kit": "^1.0.0"
+    "@sveltejs/kit": "^1.0.0",
+    "svelte": "^4.0.0"
   },
   "devDependencies": {
     "@jill64/sentry-sveltekit-cloudflare": "1.0.0",
@@ -61,6 +61,7 @@
     "eslint-plugin-svelte": "2.35.0",
     "prettier-plugin-svelte": "3.1.0",
     "svelte": "4.2.3",
+    "svelte-highlight": "^7.4.1",
     "typescript": "5.2.2",
     "vite": "4.5.0",
     "vitest": "0.34.6"
