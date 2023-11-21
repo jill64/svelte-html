@@ -6,6 +6,8 @@
 
 🏷️ Declarative attribute binding for the root html element
 
+## [Demo](https://svelte-html.jill64.dev)
+
 ## Installation
 
 ```sh
