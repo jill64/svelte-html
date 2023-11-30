@@ -61,7 +61,7 @@
     "eslint-plugin-deprecation": "2.0.0",
     "eslint-plugin-svelte": "2.35.1",
     "prettier-plugin-svelte": "3.1.2",
-    "svelte": "4.2.7",
+    "svelte": "4.2.8",
     "svelte-feather-icons": "4.0.1",
     "svelte-highlight": "7.4.2",
     "typescript": "5.3.2",
