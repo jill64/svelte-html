@@ -14,6 +14,7 @@
 
 ````sh
 npm i @jill64/svelte-html
+```
 
 ## Usage
 
