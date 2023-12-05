@@ -8,8 +8,6 @@
 
 ## [Demo](https://svelte-html.jill64.dev)
 
-````
-
 <!----- END GHOST DOCS HEADER ----->
 
 ## Installation
