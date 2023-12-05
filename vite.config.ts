@@ -8,10 +8,5 @@ export default defineConfig({
   },
   ssr: {
     noExternal: ['@jill64/sentry-sveltekit-cloudflare']
-  },
-  resolve: {
-    alias: {
-      '@jill64/svelte-html': './src/lib/index.ts'
-    }
   }
 })
