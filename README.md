@@ -8,13 +8,13 @@
 
 ## [Demo](https://svelte-html.jill64.dev)
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
-```sh
+````sh
 npm i @jill64/svelte-html
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Usage
 
@@ -26,7 +26,7 @@ By passing a key-value set to the `<SvelteHTML />` component, attributes are bin
 </script>
 
 <SvelteHTML lang="en" prefix="example" />
-```
+````
 
 ↓
 
