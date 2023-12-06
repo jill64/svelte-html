@@ -12,7 +12,7 @@
 
 ## Installation
 
-````sh
+```sh
 npm i @jill64/svelte-html
 ```
 
@@ -26,7 +26,7 @@ By passing a key-value set to the `<SvelteHTML />` component, attributes are bin
 </script>
 
 <SvelteHTML lang="en" prefix="example" />
-````
+```
 
 ↓
 
