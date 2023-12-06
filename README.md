@@ -39,16 +39,16 @@ By passing a key-value set to the `<SvelteHTML />` component, attributes are bin
 ## SSR
 
 Attribute binding with `<SvelteHTML>` is only applied on the client.
-To assign arbitrary attributes during SSR, use the `transform` function in the `handle` hook.
+To assign arbitrary attributes during SSR, use the `apply` function in the `handle` hook.
 
 ```js
 // hooks.server.js
-import { transform } from '@jill64/svelte-html'
+import { apply } from '@jill64/svelte-html'
 
 export const handle = async ({ event, resolve }) => {
   // ...
   return resolve(event, {
-    transformPageChunk: transform({
+    transformPageChunk: apply({
       lang: 'en',
       prefix: 'example'
     })
