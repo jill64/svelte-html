@@ -1,12 +1,8 @@
 <script lang="ts">
   import SvelteHtml from '$lib/SvelteHtml.svelte'
-  import { ThemeManager, theme } from '@jill64/svelte-dark-theme'
+  import { Highlight, HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
+  import { xml as html } from '@jill64/npm-demo-layout/highlight/languages'
   import { PlusIcon, XIcon } from 'svelte-feather-icons'
-  import Highlight from 'svelte-highlight'
-  import html from 'svelte-highlight/languages/xml'
-  import github from 'svelte-highlight/styles/github'
-  import githubDark from 'svelte-highlight/styles/github-dark'
-  import GitHubLogo from './GitHubLogo.svelte'
   import { htmlCode } from './htmlCode'
   import { svelteCode } from './svelteCode'
 
@@ -22,28 +18,9 @@
   ]
 </script>
 
-<ThemeManager />
-
-<svelte:head>
-  <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-  {@html $theme === 'dark' ? githubDark : github}
-</svelte:head>
-
 <SvelteHtml
   {...Object.fromEntries(attributes.map(({ key, value }) => [key, value]))}
 />
-
-<header>
-  <div>
-    <h1>@jill64/svelte-html</h1>
-    <p style:font-size="large">
-      🏷️ Declarative attribute binding for the root html element
-    </p>
-  </div>
-  <a href="https://github.com/jill64/svelte-html">
-    <GitHubLogo />
-  </a>
-</header>
 
 <p>Open the Dev Tool and check that the html tag attributes have changed.</p>
 
@@ -51,7 +28,7 @@
   <div class="preview">
     <section class="preview-box">
       svelte
-      <Highlight class="code" language={html} code={svelteCode(attributes)} />
+      <HighlightSvelte class="code" code={svelteCode(attributes)} />
     </section>
     <section class="preview-box">
       html
@@ -90,12 +67,6 @@
 </main>
 
 <style>
-  :global(body) {
-    font-family: sans-serif;
-    padding: 0 1rem;
-    border-color: #ccc;
-  }
-
   :global(code.hljs) {
     border-radius: 0.25rem;
     border: 1px solid #ccc;
@@ -128,12 +99,6 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    :global(body) {
-      background-color: #1c1c1c;
-      border-color: #333;
-      color: #eee;
-    }
-
     :global(code.hljs) {
       border: 1px solid #222;
     }
@@ -146,12 +111,6 @@
     button:hover {
       background-color: #333;
     }
-  }
-
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 
   .panel {

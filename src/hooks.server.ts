@@ -1,6 +1,6 @@
 import { apply } from '$lib'
+import { hooks } from '@jill64/npm-demo-layout'
 import { serverInit } from '@jill64/sentry-sveltekit-cloudflare'
-import { onRender } from '@jill64/svelte-dark-theme'
 import { sequence } from '@sveltejs/kit/hooks'
 
 const { onHandle, onError } = serverInit(
@@ -8,7 +8,7 @@ const { onHandle, onError } = serverInit(
 )
 
 export const handle = onHandle(
-  sequence(onRender(), ({ resolve, event }) =>
+  sequence(hooks, ({ resolve, event }) =>
     resolve(event, {
       transformPageChunk: apply({
         lang: 'en',
