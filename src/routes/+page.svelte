@@ -67,11 +67,6 @@
 </main>
 
 <style>
-  :global(code.hljs) {
-    border-radius: 0.25rem;
-    border: 1px solid #ccc;
-  }
-
   input {
     color: inherit;
     background-color: inherit;
@@ -99,10 +94,6 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    :global(code.hljs) {
-      border: 1px solid #222;
-    }
-
     input,
     button {
       border: 1px solid #777;
