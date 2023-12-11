@@ -28,11 +28,11 @@
   <div class="preview">
     <section class="preview-box">
       svelte
-      <HighlightSvelte class="code" code={svelteCode(attributes)} />
+      <HighlightSvelte code={svelteCode(attributes)} />
     </section>
     <section class="preview-box">
       html
-      <Highlight class="code" language={html} code={htmlCode(attributes)} />
+      <Highlight language={html} code={htmlCode(attributes)} />
     </section>
   </div>
   <div class="panel">
