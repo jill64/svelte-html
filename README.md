@@ -55,3 +55,11 @@ export const handle = async ({ event, resolve }) => {
   })
 }
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
