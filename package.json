@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "143883742+jill64@users.noreply.github.com",
+    "email": "intents.turrets0h@icloud.com",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -69,7 +69,7 @@
     "svelte-feather-icons": "4.1.0",
     "typescript": "5.3.3",
     "vite": "5.0.10",
-    "vitest": "1.0.4",
+    "vitest": "1.1.0",
     "@sveltejs/vite-plugin-svelte": "3.0.1"
   }
 }
