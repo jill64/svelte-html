@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-html",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "🏷️ Declarative attribute binding for the root html element",
   "main": "dist/index.js",
   "type": "module",
@@ -64,7 +64,7 @@
     "@jill64/sentry-sveltekit-cloudflare": "1.7.0",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-cloudflare": "3.0.1",
-    "@sveltejs/kit": "2.0.4",
+    "@sveltejs/kit": "2.0.5",
     "svelte": "4.2.8",
     "svelte-feather-icons": "4.1.0",
     "typescript": "5.3.3",
