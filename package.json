@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/3a8e78fb4bafd1afe6da542d0f360bdd24df1018d43e6c049ab00a5d473b4fcc/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/1d5e9981cb8bbaa91f0f62492fb943ce40b46c193650dcfa6b810e6679751fb9/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
@@ -69,7 +69,7 @@
     "svelte-feather-icons": "4.1.0",
     "typescript": "5.4.5",
     "vite": "5.2.10",
-    "vitest": "1.5.2",
+    "vitest": "1.5.3",
     "@sveltejs/vite-plugin-svelte": "3.1.0"
   }
 }
