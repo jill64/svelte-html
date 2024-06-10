@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/5672175a030344bffcc52409fc055afa999fc4b31c8d3d9acc559a9ebdf0fa01/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/533bebbec90d6d07b4d5dd9bd6e7528cd314969313e709620df79d49b797ec5f/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
@@ -56,7 +56,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "1.2.31",
+    "@jill64/eslint-config-svelte": "1.2.32",
     "@jill64/npm-demo-layout": "1.0.210",
     "@jill64/universal-sanitizer": "1.2.13",
     "@jill64/playwright-config": "2.3.0",
