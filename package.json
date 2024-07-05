@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-html",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "description": "🏷️ Declarative attribute binding for the root html element",
   "main": "dist/index.js",
   "type": "module",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/275571be555a4d85d4a69a63b685547b9f168c0f48416b7a375af148689aab81/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/118746c8242605dc582c13699be30e19a4bd36355f1ccbb5c82a0b3bbba7e32e/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
@@ -57,7 +57,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.39",
-    "@jill64/npm-demo-layout": "1.0.223",
+    "@jill64/npm-demo-layout": "1.0.225",
     "@jill64/universal-sanitizer": "1.2.13",
     "@jill64/playwright-config": "2.4.0",
     "@jill64/prettier-config": "1.0.0",
