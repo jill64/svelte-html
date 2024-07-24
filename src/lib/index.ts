@@ -1,6 +1,7 @@
-export { default as SvelteHTML } from './SvelteHtml.svelte'
-export { apply }
-import { apply } from './apply'
+import type { ResolveOptions } from '@sveltejs/kit'
+import { transform } from './utils/transform'
 
-/** @deprecated rename to `apply` */
-export const transform = apply
+export const apply =
+  (attributes: Record<string, string>): ResolveOptions['transformPageChunk'] =>
+  ({ html }) =>
+    transform(html, attributes)
