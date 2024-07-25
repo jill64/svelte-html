@@ -1,3 +1,4 @@
+export { default as SvelteHTML } from './SvelteHtml.svelte'
 import type { ResolveOptions } from '@sveltejs/kit'
 import { transform } from './utils/transform'
 

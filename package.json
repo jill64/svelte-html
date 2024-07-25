@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-html",
-  "version": "2.0.0next-.1",
+  "version": "2.0.0next-.2",
   "description": "🏷️ Declarative attribute binding for the root html element",
   "main": "dist/index.js",
   "type": "module",
