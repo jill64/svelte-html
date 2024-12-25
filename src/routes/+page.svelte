@@ -39,7 +39,7 @@
     {#each attributes as { key, value }, index}
       <button
         style:font-size="x-large"
-        on:click={() => {
+        onclick={() => {
           attributes = attributes
             .slice(0, index)
             .concat(attributes.slice(index + 1))
@@ -57,7 +57,7 @@
       style:font-size="x-large"
       style:display="flex"
       style:justify-self="center"
-      on:click={() => {
+      onclick={() => {
         attributes = [...attributes, { key: '', value: '' }]
       }}
     >
