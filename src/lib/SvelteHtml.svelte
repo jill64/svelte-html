@@ -9,9 +9,11 @@
 
       Object.entries(prop).forEach(([key, value]) => {
         if (html.getAttribute(key) !== value) {
-          value
-            ? html.setAttribute(key, value as string)
-            : html.removeAttribute(key)
+          if (value) {
+            html.setAttribute(key, value as string)
+          } else {
+            html.removeAttribute(key)
+          }
         }
       })
     }
