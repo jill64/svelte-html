@@ -36,7 +36,7 @@
     </section>
   </div>
   <div class="panel">
-    {#each attributes as { key, value }, index}
+    {#each attributes as { key, value }, index (key)}
       <button
         style:font-size="x-large"
         onclick={() => {

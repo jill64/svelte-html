@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/45fbadc9d6df62b785ec412258d3496a0a4b0d6b3c79a9fa84d1fe22e55cb943/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/a4e7fb141c2df857a265cd9492ef1d8e62003a97a9c95eea4c5a6b2cc3ebdc56/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
@@ -40,14 +40,14 @@
   ],
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npm run package",
-    "preview": "npm run build && vite preview",
-    "prepack": "npm run build",
-    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "check": "svelte-kit sync && npx svelte-check",
-    "lint": "npm run check && npx eslint .",
-    "format": "npx @jill64/psx",
-    "test": "vitest",
+    "build": "vite build && bun run package",
+    "preview": "bun run build && vite preview",
+    "prepack": "bun run build",
+    "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
+    "check": "svelte-kit sync && bunx svelte-check",
+    "lint": "bun run check && eslint .",
+    "format": "bunx psvx",
+    "test": "bun test **/*.test.ts",
     "test:e2e": "playwright test"
   },
   "peerDependencies": {
@@ -56,20 +56,20 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "2.0.6",
+    "@jill64/eslint-config-svelte": "2.2.0",
     "@jill64/npm-demo-layout": "2.0.15",
-    "@jill64/universal-sanitizer": "1.4.1",
-    "@jill64/playwright-config": "2.4.2",
+    "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
-    "@playwright/test": "1.50.1",
-    "@sveltejs/adapter-cloudflare": "5.0.2",
-    "@sveltejs/kit": "2.17.1",
-    "svelte": "5.19.7",
+    "@playwright/test": "1.51.0",
+    "@sveltejs/adapter-cloudflare": "5.0.3",
+    "@sveltejs/kit": "2.19.0",
+    "svelte": "5.22.6",
     "svelte-feather-icons": "4.2.0",
     "typescript": "5.7.3",
     "vite": "6.0.11",
-    "vitest": "3.0.4",
+    "@types/bun": "1.2.4",
+    "eslint": "9.22.0",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   }
 }
