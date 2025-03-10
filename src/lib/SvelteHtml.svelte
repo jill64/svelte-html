@@ -5,6 +5,7 @@
 
   $effect(() => {
     if (browser) {
+      // eslint-disable-next-line
       const html = document.getElementsByTagName('html')[0]
 
       Object.entries(prop).forEach(([key, value]) => {
