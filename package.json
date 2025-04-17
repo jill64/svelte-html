@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/3a14930be06980c3578627fb9679bfd695b8d25140745eb89333577e33d3e809/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/fe30b1490bb00d8e9e9d4f3fd039272f6876fed8b7f1e6963074a121b70a0fed/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
