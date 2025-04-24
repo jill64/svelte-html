@@ -67,7 +67,7 @@
     "svelte": "5.23.1",
     "svelte-feather-icons": "4.2.0",
     "typescript": "5.8.3",
-    "vite": "6.3.2",
+    "vite": "6.3.3",
     "@types/bun": "1.2.10",
     "eslint": "9.25.1",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
