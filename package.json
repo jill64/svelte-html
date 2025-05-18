@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-html",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "🏷️ Declarative attribute binding for the root html element",
   "main": "dist/index.js",
   "type": "module",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-html.git",
-    "image": "https://opengraph.githubassets.com/1b1ea798f92ce94155c8e7d6d4a0b7fd73d6fc80269a7fc81bb9b86395f7b0dc/jill64/svelte-html"
+    "image": "https://opengraph.githubassets.com/0e910bc0fd91c5a4d61c4e719c4f064d9fe3aa27b9938c4e5ae898d5e3e7d6c1/jill64/svelte-html"
   },
   "publishConfig": {
     "access": "public"
@@ -63,7 +63,7 @@
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
     "@playwright/test": "1.52.0",
     "@sveltejs/adapter-cloudflare": "5.1.0",
-    "@sveltejs/kit": "2.21.0",
+    "@sveltejs/kit": "2.21.1",
     "svelte": "5.23.1",
     "svelte-feather-icons": "4.2.0",
     "typescript": "5.8.3",
